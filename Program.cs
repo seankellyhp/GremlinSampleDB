@@ -15,11 +15,11 @@ namespace GremlinNetSample
     {
         // Azure Cosmos DB Configuration variables
         // Replace the values in these variables to your own.
-        private static string hostname = "livebuzz-transition-test.gremlin.cosmosdb.azure.com";
-        private static int port = 443;
-        private static string authKey = "hxpERNXwXaWlEHL2lXKQ3YsNNJHw5TnHk59oX9RT7X7ROstxpsrcw1OkYp0Vjaqq5slsw9pLEq9p1FvuLzqPHg==";
-        private static string database = "sample-database";
-        private static string collection = "livebuzz-graph-test";
+        private static string hostname = "******";
+        private static int port = ******;
+        private static string authKey = "******";
+        private static string database = "******";
+        private static string collection = "******";
 
         // Gremlin queries that will be executed.
         private static Dictionary<string, string> gremlinQueries = new Dictionary<string, string>
